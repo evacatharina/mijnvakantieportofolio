@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(144, 209, 255);
+
+font-family:'Courier New', Courier, monospace
+ ; color: rgb(36, 0, 120)}
+
+ h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
+ }
+ /* img {
+    max-width: 40%;
+} */
+
+
+
+img.small-images {
+    width: 250px;
+}
+
+img.medium-images {
+    width: 450px;
+}
+
+img.large-images {
+    width: 600px;
+}
+
+nav ul {
+    display: flex;
+ }
+ 
+ nav.home ul {
+    flex-direction: column;
+ }
+
+li {
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10em;
+    padding: 1em;
+    background-color: #8ed6ff;
+    width: 200px;
+    list-style-type: style type none;;
+    transition-property: background-color;
+    transition-duration: 3s;
+   
+    margin: 2em;
+}
+ 
+li:hover {
+background-color: rgb(229, 123, 255);
+transition-property: background-color;
+transition-duration: 0.1s;
+}
+
+
+.bonaire-fotos {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filipijnen-fotos {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bonaire-fotos img {
+    width: 200px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 50px;
+}
+ 
+footer p {
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
